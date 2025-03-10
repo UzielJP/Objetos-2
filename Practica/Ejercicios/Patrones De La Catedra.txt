@@ -1,0 +1,10 @@
+Template method 
+Adapter 
+Composite 
+Decorator 
+State 
+Strategy 
+Builder 
+Factory method 
+Proxy(ese es de adorno)
+Singleton

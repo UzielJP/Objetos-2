@@ -1,0 +1,19 @@
+# Patrones de Diseño
+- [Introducción al curso. Arquitectura y Diseño. Patrones de diseño](https://bigbluebutton.linti.unlp.edu.ar/playback/presentation/2.3/0c6dfbea411830c6f1e8cbdd5c3f2ccc361501c9-1710354941063)
+- [Adapter, Template Method](https://bigbluebutton.linti.unlp.edu.ar/playback/presentation/2.3/9a1685775581a0b22d42fbb60130aefe3c7b088d-1710959851797)
+- [ Composite, Strategy y State](https://bigbluebutton.linti.unlp.edu.ar/playback/presentation/2.3/2546f93aa658b9111ad81858052beaed095a59b8-1711566108562)
+- [Consulta sobre patrones](https://bigbluebutton.linti.unlp.edu.ar/playback/presentation/2.3/45d0882995c2d5aec082e627079b5d234439ac58-1712170859689)
+- [Wrappers. Patrón Decorator, Adapter y Proxy](https://bigbluebutton.linti.unlp.edu.ar/playback/presentation/2.3/3bfa190f094673a86ff36c9d465bad3941f36dfc-1712775490882)
+- [Factory Method](https://bigbluebutton.linti.unlp.edu.ar/playback/presentation/2.3/3b311b126c4d31e54698c9116fa5d0f2c45ad217-1713379309174)
+- [Null Object, Builder](https://bigbluebutton.linti.unlp.edu.ar/playback/presentation/2.3/49575ee969965311ce2907c62c2e19734254d6f3-1713984476602)
+- [Type Object y Test Doubles](https://bigbluebutton.linti.unlp.edu.ar/playback/presentation/2.3/5290567eace9475a69ab40206dbcb046c981b96a-1714741753367)
+
+# Refactoring
+- [Introduccion, cátalogo](https://bigbluebutton.linti.unlp.edu.ar/playback/presentation/2.3/0c83a01e1b6d217392b25efa43f430f1cefa305c-1715194552466)
+- [Refactoring hacia patrones](https://bigbluebutton.linti.unlp.edu.ar/playback/presentation/2.3/0950cf557315d89da82102d0faf595dc34f4cd8c-1715799288255)
+- [TDD](https://bigbluebutton.linti.unlp.edu.ar/playback/presentation/2.3/6a3c7578dc59707b4ce523d1e0684db622dd7652-1715800122028)
+
+# Frameworks
+- [Frameworks Orientados a objetos, Hot-spot, frozen-spot, inversion de control](https://bigbluebutton.linti.unlp.edu.ar/playback/presentation/2.3/cb9fb3c5f307a622f0d2713534dddbebc9c60b42-1716404431486)
+- [Framework de Logging de Java, caja negra y caja blanca](https://bigbluebutton.linti.unlp.edu.ar/playback/presentation/2.3/eaa33781ee24f55662ac7e122cb0b71f7059df2e-1717009005040)
+- [Patrones en Frameworks. Template Method como generador de hotspots e inversion de control. Plantillas y ganchos con herencia o composicion(NO HAY CLASE GRABADA)](about::blank)
