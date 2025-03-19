@@ -20,6 +20,7 @@ public class Twitter {
 	{
 		if(this.usuarios.contains(usuario))
 		{
+			
 			usuario.eliminarTweets();
 			this.usuarios.remove(usuario);
 		}

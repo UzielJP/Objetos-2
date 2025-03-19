@@ -12,11 +12,23 @@ public class Usuario {
 		this.screenName=screenName;
 	}
 	
-	public void nuevoTweet(Tweet tweet)
+	public void nuevoTweet(String texto)
 	{
-		this.tweets.add(tweet);
+		if(texto.length()>=1&&texto.length()<=250)
+		{
+			this.tweets.add(new Tweet(texto));
+		}
+		else
+		{
+			throw new IllegalArgumentException("El Texto debe tener un tamaño entre 1 y 250 caracteres.");
+		}
 	}
 
+	public void nuevoReTweet(Tweet tweet)
+	{
+		this.tweets.add(new ReTweet(tweet));
+	}
+	
 	public String getScreenName() {
 		return screenName;
 	}

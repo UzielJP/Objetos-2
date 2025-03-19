@@ -1,8 +1,8 @@
 package ej1;
 
-public class ReTweet implements Tweet{
+public class ReTweet extends Tweet{
 
-	private TweetSimple tweetSimple;
+	private Tweet tweet;
 	
 	public ReTweet(TweetSimple tweetSimple)
 	{
@@ -11,7 +11,7 @@ public class ReTweet implements Tweet{
 	
 	public String obtenerTexto()
 	{
-		return this.tweetSimple.obtenerTexto();
+		return this.tweet.obtenerTexto();
 	}
 	
 }

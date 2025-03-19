@@ -1,7 +1,7 @@
 package ej1;
 
-public interface Tweet {
-
+public abstract class Tweet {
+	
 	public abstract String obtenerTexto();
 	
 }
