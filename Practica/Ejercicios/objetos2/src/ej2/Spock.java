@@ -3,8 +3,9 @@ package ej2;
 public class Spock extends Estrategia{
 
 	@Override
-	public String vsPiedra() {
-		return "Vaporiza";
+	public String contra(Estrategia estrategia) 
+	{
+		return Estrategia.vsSpock();
 	}
 
 	@Override

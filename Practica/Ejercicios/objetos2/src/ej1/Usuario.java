@@ -42,8 +42,15 @@ public class Usuario {
 		return this.screenName.equals(screenName);
 	}
 	
+	public void matar(Tweet tweet)
+	{
+		this.tweets.remove(tweet);
+	}
+	
 	public void eliminarTweets()
 	{
+		this.tweets.stream().forEach(p-> p.borrarSiSoyDe(this));
 		this.tweets.removeAll(tweets);
 	}
+	
 }

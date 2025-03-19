@@ -3,6 +3,12 @@ package ej2;
 public class Lagarto extends Estrategia{
 
 	@Override
+	public String contra(Estrategia estrategia) 
+	{
+		return Estrategia.vsLagarto();
+	}
+	
+	@Override
 	public String vsPiedra() {
 		return "Aplastado";
 	}

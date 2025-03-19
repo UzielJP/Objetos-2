@@ -20,7 +20,7 @@ public class Twitter {
 	{
 		if(this.usuarios.contains(usuario))
 		{
-			
+			this.usuarios.stream().forEach(a-> a.borrarTweetsDe(u));
 			usuario.eliminarTweets();
 			this.usuarios.remove(usuario);
 		}

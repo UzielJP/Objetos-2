@@ -14,4 +14,18 @@ public class ReTweet extends Tweet{
 		return this.tweet.obtenerTexto();
 	}
 	
+	@Override
+	public boolean borrarSiSoyDe(Usuario u)
+	{
+		if(this.tweet.borrarSiSoyDe(u))
+		{
+			this.Matar();
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+	}
+	
 }
