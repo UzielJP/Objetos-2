@@ -1,6 +1,6 @@
 package ej3;
 
-public class Pasante extends Tipo{
+public class Pasante extends Empleado{
 
 	private int examen;
 	

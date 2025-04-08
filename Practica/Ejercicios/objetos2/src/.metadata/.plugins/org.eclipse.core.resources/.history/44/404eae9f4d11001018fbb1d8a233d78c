@@ -1,0 +1,27 @@
+package ar.edu.unlp.info.oo2.biblioteca;
+
+import java.util.List;
+
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+
+public class JsonAdapter extends VoorheesExporter
+{
+	private JSONSimple js 
+	@Override
+	public String exportar(List<Socio> socios)
+	{
+		
+		if (socios.isEmpty()) {
+			return "[]";
+		}
+		JSONObject obj = new JSONObject();
+		JSONArray jsonArray = new JSONArray();
+		JSONParser jsonP = new JSONParser();
+		socios.stream().forEach(a->obj.put(a.getLegajo(), a));
+		jsonArray.add(obj);
+		jsonP = jsonArray.toJSONString();
+		return 
+	}
+}

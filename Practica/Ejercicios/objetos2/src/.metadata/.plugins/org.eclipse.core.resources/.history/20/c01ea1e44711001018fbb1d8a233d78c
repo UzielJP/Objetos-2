@@ -1,0 +1,9 @@
+package ar.edu.unlp.info.oo2.biblioteca;
+
+import org.junit.jupiter.api.Test;
+
+@Test
+public class BibliotecaTest {
+
+
+}

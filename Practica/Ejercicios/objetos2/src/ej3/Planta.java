@@ -1,6 +1,6 @@
 package ej3;
 
-public class Planta extends Temporario{
+public class Planta extends Empleado{
 	
 	private int antiguedad;
 	

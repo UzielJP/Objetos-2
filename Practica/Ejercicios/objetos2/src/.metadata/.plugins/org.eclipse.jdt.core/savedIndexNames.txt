@@ -1,0 +1,27 @@
+INDEX VERSION 1.134+/home/uziel/Escritorio/college/clones/Objetos-2/Practica/Ejercicios/objetos2/src/.metadata/.plugins/org.eclipse.jdt.core
+3131655756.index
+1122856797.index
+1012111390.index
+3343716700.index
+1684476876.index
+3119045229.index
+1530913226.index
+1482831013.index
+2768429612.index
+876478354.index
+3965219437.index
+1662340870.index
+1082844946.index
+2888484010.index
+692884018.index
+3189844999.index
+28036415.index
+2975861748.index
+320936487.index
+2135851621.index
+1865797976.index
+179074789.index
+1611645267.index
+2812665804.index
+1373094352.index
+447654318.index
