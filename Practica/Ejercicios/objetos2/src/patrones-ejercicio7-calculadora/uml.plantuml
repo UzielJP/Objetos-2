@@ -1,0 +1,81 @@
+@startuml
+
+class Calculadora {
+    - String valorAcumulado;
+    - Operacion operacion;
+
+    + setValorAcumulado(valor: String)
+    + setOperacion(operacion: Operacion)
+    + getValorAcumulado(): String
+    + getOperacion(): Operacion
+    + mas()
+    + menos()
+    + multiplicar()
+    + dividir()
+}
+
+interface Operacion {
+    + setValor(double unValor, Calculadora calculadora)
+    + mas()
+    + menos()
+    + multiplicar()
+    + dividir()
+}
+
+abstract class OperacionComun implements Operacion {
+    + mas()
+    + menos()
+    + multiplicar()
+    + dividir()
+}
+
+class OperacionSumar extends OperacionComun {
+    + setValor(double unValor, Calculadora calculadora)
+    + mas()
+    + menos()
+    + multiplicar()
+    + dividir()
+}
+
+class OperacionRestar extends OperacionComun {
+    + setValor(double unValor, Calculadora calculadora)
+    + mas()
+    + menos()
+    + multiplicar()
+    + dividir()
+}
+
+class OperacionMultiplicar extends OperacionComun {
+    + setValor(double unValor, Calculadora calculadora)
+    + mas()
+    + menos()
+    + multiplicar()
+    + dividir()
+}
+
+class OperacionDividir extends OperacionComun {
+    + setValor(double unValor, Calculadora calculadora)
+    + mas()
+    + menos()
+    + multiplicar()
+    + dividir()
+}
+
+class OperacionInicial implements Operacion {
+    + setValor(double unValor, Calculadora calculadora)
+    + mas()
+    + menos()
+    + multiplicar()
+    + dividir()
+}
+
+class OperacionError implements Operacion {
+    + setValor(double unValor, Calculadora calculadora)
+    + mas()
+    + menos()
+    + multiplicar()
+    + dividir()
+}
+
+Calculadora -> Operacion : operacion 1
+@enduml

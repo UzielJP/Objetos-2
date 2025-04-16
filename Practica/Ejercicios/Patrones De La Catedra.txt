@@ -4,7 +4,6 @@ Composite
 Decorator 
 State 
 Strategy 
-Builder 
-Factory method 
+Builder  
 Proxy(ese es de adorno)
 Singleton
